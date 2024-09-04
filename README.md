@@ -1,24 +1,48 @@
-# Probability-Experiment
+<!--Probability Experiment-->
+This is experiment <br/>
+A dice is used for this experiment .This is mark down
+ ---
+ # h1 tag
+ ## h2 
+ ### h3
+ #### h4
+ ##### h5
+ ###### h6
+ This is tanvir.
 
-import random
-number = int(input("Enter how may time you want to experiment :"))
-count = 0
-Theoretical_value = (1/6) * 100
+ ~~this is~~  
+  `This is inline` <br/> 
+  `<h1>thsfdf </h1>`
+```html
+<onek l>ine code <likhbo>
+```
+## task item
+- [x] task 1
+- [x] task 1
+- [] task 1
 
-dice_number = random.randint(1,6)
-for i in range(0,number):
-    dice_number = random.randint(1,6)
+## link  
+http://www.google.com
 
-    if dice_number == 5 :
-        count += 1
+## link disable
+`http://www.google.com`
 
-Practical_value = (count/number)*100
-Result_difference = (Practical_value/Theoretical_value)*100        
-        
-print("Practical value:", Practical_value)
-print("Theoretical value:", Theoretical_value)
-print("Comparision:", Result_difference)
+## markdown link syntax
+[google][onek link]
+[facebook][facebook link]
+
+## onek gulo link
+[onek link]: http://www.google.com 
+[facebook link]: http://www.facebook.com 
+
+## image syntax
+
+<!--![ja_iccha](./image/IMG_3881.PNG)-->
+<img src=".image/IMG_3881.PNG" width= "400" title="Tanvir"/>
 
 
-        
-        
+
+
+
+
+
